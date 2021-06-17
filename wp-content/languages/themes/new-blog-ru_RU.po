@@ -1,0 +1,569 @@
+# Translation of Themes - New Blog in Russian
+# This file is distributed under the same license as the Themes - New Blog package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-21 13:11:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - New Blog\n"
+
+#. Theme Name of the theme
+msgid "New Blog"
+msgstr "New Blog"
+
+#. Description of the theme
+msgid "New blog theme is fairly developed theme. It supports Gutenberg editor. It has clean looks and smooth presentation ideally suited for personal blog and magazine type blog. It has used all customizer options available in WordPress. New blog theme is totally controlled and accesed from customizer view. It's design as per demo can be totally achieved from customizer option. Custom widget has been avoided so that even the novice user can use this theme. Many premium features have been provided as free features so that all basics and advance features can be utilized. This is complete package for well content website making business. You can preview demo here: \" http://postmagthemes.com/demonewblog/ \""
+msgstr "New blog - честно разработанная тема с чистым видом и гладким представлением. Поддерживает редактор блоков. Идеально подходит как для персонального так и журнального блога. Она использует все возможности предоставляемые интерфейсом настройки тем в WordPress и полностью настраивается оттуда. Вид как в демо версии может быть получен только настройками ее возможностей в интерфейсе настройки, пользовательские виджеты не используются и тема может быть использована даже новичками. Бесплатно доступно много премиальных возможностей, так, что можно использовать не только базовые но и расширенные возможности. Тема предоставляет полный пакет для бизнес-наполнения сайтов. Демо версия доступна по ссылке: http://postmagthemes.com/demonewblog/"
+
+#: inc/customizer/customizer.php:382
+msgid "Number of Words per Minute Read"
+msgstr "Количество слов в минуту для чтения"
+
+#: inc/customizer/customizer.php:368
+msgid "Enable/Disable Minutes Read Count"
+msgstr "Включить / отключить счет минут чтения"
+
+#: functions.php:361
+msgid "%s min"
+msgid_plural "%s min"
+msgstr[0] "%s минута"
+msgstr[1] "%s минуты"
+msgstr[2] "%s минут"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:92
+msgid "Theme : %2$s : by :  %1$s"
+msgstr "Тема %1$s от %2$s"
+
+#: inc/customizer/customizer.php:38
+msgid "Go Pro"
+msgstr "Купить Pro"
+
+#: inc/customizer/customizer.php:39
+msgid "Buy Pro New Blog"
+msgstr "Купить Pro версию темы \"New Blog\""
+
+#: single.php:81
+msgid "Previous post"
+msgstr "Предыдущая запись"
+
+#: single.php:80
+msgid "Next post"
+msgstr "Следующая запись"
+
+#: inc/customizer/customizer.php:654
+msgid "Display Sidebar on page"
+msgstr "Показывать боковую панель на страницах"
+
+#: sidebar.php:28
+msgid "Stay Connected"
+msgstr "Оставайтесь на связи"
+
+#. translators: %s: search query.
+#: search.php:30
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничто не соответствовало вашим условиям поиска. Пожалуйста, попытайтесь снова с другими ключевыми словами."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: single.php:43 template-parts/content-page.php:24
+msgid "Pages :"
+msgstr "Страницы:"
+
+#: functions.php:197 functions.php:207 functions.php:216
+msgid "Add widgets here."
+msgstr "Добавьте сюда виджеты."
+
+#: functions.php:172
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#. translators: 1: date, 2: time
+#: functions.php:170
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:56
+msgid "Sidemenu"
+msgstr "Боковое меню"
+
+#: inc/css/css-customize.php:48
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/css/css-customize.php:45
+msgid "Widget Title"
+msgstr "Заголовок виджета"
+
+#: inc/css/css-customize.php:37
+msgid "Leave comment"
+msgstr "Оставить комментарий"
+
+#: inc/css/color-luminance.php:11 inc/css/css-customize.php:11
+msgid "#b29700"
+msgstr "#b29700"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:94 template-parts/content-page.php:37
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Редактировать <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:81
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post author.
+#: inc/template-tags.php:39
+msgctxt "post author"
+msgid "by %s"
+msgstr "от %s"
+
+#: inc/customizer/customizer.php:1173
+msgid "General setting section"
+msgstr "Раздел общих настроек"
+
+#: inc/customizer/customizer.php:1142
+msgid "General layout section"
+msgstr "Общий раздел макета"
+
+#: inc/customizer/customizer.php:1004
+msgid "Email"
+msgstr "Email"
+
+#: inc/customizer/customizer.php:1004
+msgid "Avatar"
+msgstr "Аватар"
+
+#: inc/customizer/customizer.php:984
+msgid "Single page section"
+msgstr "Раздел одной страницы"
+
+#: inc/customizer/customizer.php:973
+msgid "Write About"
+msgstr "Написать о"
+
+#: sidebar.php:132 inc/customizer/customizer.php:967
+msgid "this is my quote"
+msgstr "Это моя цитата"
+
+#: sidebar.php:128 inc/customizer/customizer.php:951
+msgid "Quotes Of The Day"
+msgstr "Цитаты дня"
+
+#: inc/customizer/customizer.php:941 inc/customizer/customizer.php:957
+msgid "Display Quote"
+msgstr "Показать цитату"
+
+#: sidebar.php:92 inc/customizer/customizer.php:848
+msgid "Latest Posts"
+msgstr "Последние записи"
+
+#: inc/customizer/customizer.php:735
+msgid "Sidebar section"
+msgstr "Раздел боковой панели"
+
+#: inc/customizer/customizer.php:723
+msgid "Upload a image"
+msgstr "Загрузка изображения"
+
+#: inc/customizer/customizer.php:705
+msgid "Write about"
+msgstr "Написать о"
+
+#: sidebar.php:17 inc/customizer/customizer.php:683
+msgid "About Me"
+msgstr "Обо мне"
+
+#: inc/customizer/customizer.php:620
+msgid "Enable pinterest Icon"
+msgstr "Включить значок Pinterest"
+
+#: inc/customizer/customizer.php:607
+msgid "Enable youtube Icon"
+msgstr "Включить значок YouTube"
+
+#. translators: %s: Label
+#: inc/customizer/customizer.php:567
+msgid "%s Url"
+msgstr "URL-адрес %s"
+
+#: inc/customizer/customizer.php:557
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/customizer.php:557
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer/customizer.php:557
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/customizer.php:557
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/customizer.php:534
+msgid "Stay connected"
+msgstr "Будьте на связи"
+
+#: inc/customizer/customizer.php:392
+msgid "Footer section"
+msgstr "Секция подвала"
+
+#: inc/customizer/customizer.php:311 inc/customizer/customizer.php:913
+#: inc/customizer/customizer.php:1120
+msgid "Date"
+msgstr "Дата"
+
+#: inc/customizer/customizer.php:301
+msgid "Display Blog post"
+msgstr "Показать запись блога"
+
+#: inc/customizer/customizer.php:287
+msgid "Blog post section"
+msgstr "Раздел блога"
+
+#. translators: %s: Label
+#: inc/customizer/customizer.php:181 inc/customizer/customizer.php:275
+#: inc/customizer/customizer.php:321 inc/customizer/customizer.php:475
+#: inc/customizer/customizer.php:819 inc/customizer/customizer.php:923
+#: inc/customizer/customizer.php:1014 inc/customizer/customizer.php:1130
+msgid "%s display"
+msgstr "Отображение %s"
+
+#: inc/customizer/customizer.php:171 inc/customizer/customizer.php:311
+#: inc/customizer/customizer.php:1120
+msgid "ReadMore"
+msgstr "Подробнее"
+
+#: inc/customizer/customizer.php:171 inc/customizer/customizer.php:1120
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: inc/customizer/customizer.php:164 inc/customizer/customizer.php:258
+#: inc/customizer/customizer.php:458 inc/customizer/customizer.php:802
+#: inc/customizer/customizer.php:906 inc/customizer/customizer.php:1113
+msgid "Number of post to show"
+msgstr "Количество записей для показа"
+
+#: inc/customizer/customizer.php:134 inc/customizer/customizer.php:228
+#: inc/customizer/customizer.php:428 inc/customizer/customizer.php:772
+#: inc/customizer/customizer.php:876 inc/customizer/customizer.php:1099
+msgid "Recent publish date"
+msgstr "Дата последней публикации"
+
+#: inc/customizer/customizer.php:129 inc/customizer/customizer.php:223
+#: inc/customizer/customizer.php:423 inc/customizer/customizer.php:767
+#: inc/customizer/customizer.php:871 inc/customizer/customizer.php:1094
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: inc/customizer/customizer.php:79
+msgid "Theme options"
+msgstr "Настройки темы"
+
+#: inc/dropdown-category.php:28
+msgid "Among All category "
+msgstr "Среди всех категорий"
+
+#: inc/class-wp-bootsrtrap-navwalker.php:341
+msgid "Add a menu"
+msgstr "Добавить меню"
+
+#: searchform.php:9
+msgctxt "placeholder"
+msgid "Search;"
+msgstr "Поиск"
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:86
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: header.php:30
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+#: 404.php:21
+msgid "Go Home"
+msgstr "На главную"
+
+#: 404.php:20
+msgid "The page you are looking for was moved, removed, renamed or might never existed."
+msgstr "Страница, которую вы ищете была перемещена, удалена, переименована или никогда не существовала."
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: 404.php:18
+msgid "404"
+msgstr "404"
+
+#: single.php:141 inc/customizer/customizer.php:1072
+msgid "Related Posts"
+msgstr "Похожие записи"
+
+#: single.php:90 inc/customizer/customizer.php:991
+msgid "Author"
+msgstr "Автор"
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:32
+msgid "Comments"
+msgstr "Комментарии"
+
+#. translators: %s: author
+#: functions.php:152
+msgid "<cite class=\"fn mr-auto\">%s</cite>"
+msgstr "<cite class=\"fn mr-auto\">%s</cite>"
+
+#: index.php:127 index.php:162 archive.php:62 archive.php:95 search.php:64
+#: search.php:97
+msgid "Previous"
+msgstr "Предыдущие"
+
+#: index.php:128 index.php:163 archive.php:63 archive.php:96 search.php:65
+#: search.php:98
+msgid "Next"
+msgstr "Следующие"
+
+#: single.php:182 template-parts/content-1colume.php:24
+#: template-parts/content.php:50
+msgid "Read More"
+msgstr "Читать далее"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: functions.php:214
+msgid "Footer Sidebar two"
+msgstr "Область виджетов подвала 2"
+
+#: functions.php:205
+msgid "Footer Sidebar one"
+msgstr "Область виджетов подвала 1"
+
+#: functions.php:195
+msgid "Sidebar one"
+msgstr "Боковая панель 1"
+
+#: inc/css/css-customize.php:41
+msgid "Readmore"
+msgstr "Читать далее"
+
+#: functions.php:179
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает одобрения."
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:84
+msgid "Tagged %1$s "
+msgstr "С меткой %1$s"
+
+#: inc/customizer/customizer.php:1187
+msgid "Read more text"
+msgstr "Текст «Читать далее»"
+
+#: inc/customizer/customizer.php:1181 template-parts/content-banner.php:40
+msgid "Read more"
+msgstr "Читать далее"
+
+#: inc/css/css-customize.php:34
+msgid "Postdate, Author & Tag"
+msgstr "Дата, автор и метка"
+
+#: inc/customizer/customizer.php:1062
+msgid "Display Related post"
+msgstr "Показать похожие записи"
+
+#: inc/customizer/customizer.php:1078
+msgid "Related post title"
+msgstr "Заголовок похожей записи"
+
+#: functions.php:55
+msgid "Primary"
+msgstr "Основное"
+
+#: inc/customizer/customizer.php:1004
+msgid "Description"
+msgstr "Описание"
+
+#: inc/customizer/customizer.php:1004
+msgid "AuthorSection"
+msgstr "Раздел автора"
+
+#: inc/customizer/customizer.php:997
+msgid "Author title"
+msgstr "Имя автора"
+
+#: inc/customizer/customizer.php:838 inc/customizer/customizer.php:854
+msgid "Display Sidebar post"
+msgstr "Показывать запись боковой панели"
+
+#: inc/customizer/customizer.php:750
+msgid "Display slider at sidebar"
+msgstr "Показывать слайдер в боковой панели"
+
+#: sidebar.php:22 inc/customizer/customizer.php:699
+msgid "Mauris eget pharetra lectus"
+msgstr "Ехал Грека через реку. Видит Грека в реке рак. Сунул в реку руку Грека. Рак за руку Греку - цап."
+
+#: inc/customizer/customizer.php:673 inc/customizer/customizer.php:689
+msgid "Display about"
+msgstr "Показать \"обо мне\""
+
+#: inc/customizer/customizer.php:638
+msgid "Display Sidebar"
+msgstr "Показать боковую панель"
+
+#: inc/customizer/customizer.php:594
+msgid "Enable twitter Icon"
+msgstr "Включить значок Twitter"
+
+#: inc/customizer/customizer.php:582
+msgid "Enable facebook Icon"
+msgstr "Включить значок Facebook"
+
+#: inc/customizer/customizer.php:549
+msgid "Enable Social link at bottom"
+msgstr "Включить ссылки на социальные сети внизу"
+
+#: inc/customizer/customizer.php:538
+msgid "Title Social link at sidebar"
+msgstr "Подписи к социальным ссылкам на боковой панели"
+
+#: inc/customizer/customizer.php:527
+msgid "Enable Social link at sidebar"
+msgstr "Включить ссылки на социальные сети на боковой панели"
+
+#: inc/customizer/customizer.php:515
+msgid "Enable Social link at top"
+msgstr "Включить ссылки на социальные сети наверху"
+
+#: inc/customizer/customizer.php:503
+msgid "Social link section"
+msgstr "Раздел социальных сетей"
+
+#: inc/customizer/customizer.php:492
+msgid "Display site title at footer"
+msgstr "Отображать заголовок сайта в подвале сайта"
+
+#: inc/customizer/customizer.php:406
+msgid "Display Footer slider"
+msgstr "Показывать слайдер в подвале"
+
+#: inc/customizer/customizer.php:344
+msgid "2 colume type"
+msgstr "тип в 2 столбца"
+
+#: inc/customizer/customizer.php:343
+msgid "1 colume type"
+msgstr "тип в 1 столбец"
+
+#: inc/customizer/customizer.php:338
+msgid "Display type"
+msgstr "Показывать тип"
+
+#: inc/customizer/customizer.php:311 inc/customizer/customizer.php:1120
+msgid "Tag"
+msgstr "Метка"
+
+#: inc/customizer/customizer.php:311
+msgid "Comment"
+msgstr "Комментарий"
+
+#: inc/customizer/customizer.php:305
+msgid "Below settings are applicable to archive and search page as well"
+msgstr "Настройки ниже применяются к страницам архивов и странице поиска"
+
+#: inc/customizer/customizer.php:265 inc/customizer/customizer.php:311
+#: inc/customizer/customizer.php:465 inc/customizer/customizer.php:809
+#: inc/customizer/customizer.php:1120
+msgid "UseBlankImage"
+msgstr "Использовать пустое изображение"
+
+#: inc/customizer/customizer.php:206
+msgid "Display Feature post"
+msgstr "Показывать рекомендуемую запись"
+
+#: inc/customizer/customizer.php:192
+msgid "Feature post section"
+msgstr "Раздел рекомендуемых записей"
+
+#: inc/customizer/customizer.php:171 inc/customizer/customizer.php:265
+#: inc/customizer/customizer.php:311 inc/customizer/customizer.php:809
+#: inc/customizer/customizer.php:1120
+msgid "Category"
+msgstr "Рубрика"
+
+#: inc/customizer/customizer.php:150 inc/customizer/customizer.php:244
+#: inc/customizer/customizer.php:444 inc/customizer/customizer.php:788
+#: inc/customizer/customizer.php:892
+msgid "Select the post among"
+msgstr "Выберите запись среди"
+
+#: inc/customizer/customizer.php:135 inc/customizer/customizer.php:229
+#: inc/customizer/customizer.php:429 inc/customizer/customizer.php:773
+#: inc/customizer/customizer.php:877 inc/customizer/customizer.php:1100
+msgid "Most commented "
+msgstr "С наибольшим количеством комментариев"
+
+#: inc/customizer/customizer.php:112
+msgid "Display Banner slider"
+msgstr "Показывать слайдер с баннерами"
+
+#: inc/customizer/customizer.php:98
+msgid "Banner slider section"
+msgstr "Раздел слайдера баннеров"
+
+#: inc/custom-header.php:32
+msgid "Default Header Image"
+msgstr "Изображение по умолчанию для заголовка"
+
+#: footer.php:83
+msgid "https://wordpress.org/"
+msgstr "https://ru.wordpress.org/"
+
+#. translators: %s: post title
+#: inc/template-tags.php:63
+msgid "/ Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "/Оставить комментарий<span class=\"screen-reader-text\"> к %s</span>"
+
+#: inc/customizer/customizer.php:1156
+msgid "Box width banner slider"
+msgstr "Ширина слайдера для баннеров"
+
+#. Author of the theme
+msgid "www.postmagthemes.com"
+msgstr "www.postmagthemes.com"
+
+#. Author URI of the theme
+msgid "https://www.postmagthemes.com/"
+msgstr "https://www.postmagthemes.com/"
+
+#. Theme URI of the theme
+msgid "https://www.postmagthemes.com/downloads/new-blog-a-free-wordpress-theme/"
+msgstr "https://www.postmagthemes.com/downloads/new-blog-a-free-wordpress-theme/"
